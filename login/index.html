@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>Registro Balam</title>
 </head>
 <body>
-    <h1>Hola jijijija</h1>
+    <br>
+  <img src="../assets/balam_Logo.png">
+  <br>
+  <h1>BALAM</h1>
+  <!--<h1><a id="who" target="_blank">Who</a> was the last person to say hi?</h1>-->
+  <button id="sign-in" class="signed-out" style="display: none" >
+    Inicia con tu wallet de <img src="../assets/near.png" height ="30" width="90"> !
+  </button>
+  <button id="say-hi" class="signed-in" style="display: none">
+    Say hi!
+  </button>
+  <footer>
+    <p class="signed-in" style="display: none">
+      Signed in as <a id="account-id" href="https://wallet.testnet.near.org/profile" target="_blank"></a>
+      • <a href="#signout" id="sign-out">sign out</a>
+    </p>
+  </footer>
+  <script src="./main.js"></script>
 </body>
 </html>
