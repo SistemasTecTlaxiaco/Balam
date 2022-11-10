@@ -6,7 +6,6 @@
   "scripts": {
     "build": "asb",
     "test": "asp"
-    
   },
   "author": "EdwinH",
   "license": "MIT",
@@ -15,7 +14,11 @@
   },
   "dependencies": {
     "asbuild": "^0.2.0",
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.9.1",
     "global": "^4.4.0",
-    "near-cli": "^3.2.0"
+    "near-cli": "^3.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-toastify": "^9.1.1"
   }
 }
